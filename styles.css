@@ -1,0 +1,56 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 2em;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+}
+
+h1 {
+    margin-bottom: 0.5em;
+    color: #1e3c72;
+    font-size: 2em;
+}
+
+p {
+    margin: 0.5em 0;
+    color: #333;
+}
+
+button {
+    background: #1e3c72;
+    color: white;
+    border: none;
+    padding: 1em 2em;
+    font-size: 1.2em;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 1em;
+}
+
+button:hover {
+    background: #2a5298;
+}
+
+.game-preview {
+    margin-top: 1em;
+}
+
+.game-preview img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
